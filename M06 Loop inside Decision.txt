@@ -1,0 +1,19 @@
+//This program will ask the user if they want to play the hello game. If yes, it will output hello a specific number of times given by the user.
+
+Start
+
+	//declarations
+	num count = 0
+	string choice
+
+	output("Would you like to play the hello game?")
+	input choice
+
+	if choice = yes
+		output("How many times would you like the word 'Hello' to be printed?")
+		input count
+		for x = 1 to count step 1
+			output("Hello")
+		endfor
+	endif
+Stop

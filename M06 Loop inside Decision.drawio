@@ -1,0 +1,110 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="9deThXbsNsE4bDgUUMI3">
+    <mxGraphModel dx="1600" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-1" value="//This program will ask the user if they want to play the hello game. If yes, it will output hello a specific number of times given by the user." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sf2PUzs2iOWQQufKvBHF-2" target="Sf2PUzs2iOWQQufKvBHF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-2" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sf2PUzs2iOWQQufKvBHF-3" target="Sf2PUzs2iOWQQufKvBHF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-3" value="declarations&lt;div&gt;num count = 0&lt;/div&gt;&lt;div&gt;num loopCount&lt;/div&gt;&lt;div&gt;string choice&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sf2PUzs2iOWQQufKvBHF-5" target="Sf2PUzs2iOWQQufKvBHF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-5" value="&lt;div&gt;output(&quot;Would you like to play the hello game?&quot;)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;input choice&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="370" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sf2PUzs2iOWQQufKvBHF-7" target="Sf2PUzs2iOWQQufKvBHF-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-11" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sf2PUzs2iOWQQufKvBHF-10">
+          <mxGeometry x="-0.6412" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sf2PUzs2iOWQQufKvBHF-7" target="Sf2PUzs2iOWQQufKvBHF-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="515" />
+              <mxPoint x="180" y="910" />
+              <mxPoint x="315" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-27" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sf2PUzs2iOWQQufKvBHF-26">
+          <mxGeometry x="-0.9184" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-7" value="choice = yes?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="460" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sf2PUzs2iOWQQufKvBHF-12" target="Sf2PUzs2iOWQQufKvBHF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-12" value="&lt;div&gt;output(&quot;How many times would you like the word &#39;Hello&#39; to be printed?&quot;)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;input count&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sf2PUzs2iOWQQufKvBHF-13" target="Sf2PUzs2iOWQQufKvBHF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-19" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sf2PUzs2iOWQQufKvBHF-18">
+          <mxGeometry x="-0.0545" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sf2PUzs2iOWQQufKvBHF-13" target="Sf2PUzs2iOWQQufKvBHF-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="910" />
+              <mxPoint x="315" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-28" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sf2PUzs2iOWQQufKvBHF-25">
+          <mxGeometry x="-0.7051" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-13" value="loopCount &amp;lt; count" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="710" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sf2PUzs2iOWQQufKvBHF-16" target="Sf2PUzs2iOWQQufKvBHF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-16" value="output(&quot;Hello&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sf2PUzs2iOWQQufKvBHF-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="770" />
+              <mxPoint x="840" y="690" />
+              <mxPoint x="441" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-17" value="loopCount=loopCount + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf2PUzs2iOWQQufKvBHF-23" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="980" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
